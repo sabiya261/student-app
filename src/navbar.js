@@ -1,18 +1,16 @@
-
 import React from "react";
 import "./navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        Student Portal
-      </div>
+      {/* Main navigation bar for the Student Portal */}
+      <h2>Student Portal</h2>
 
-      <ul className="navbar-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#students">Students</a></li>
-        <li><a href="#register">Register</a></li>
+      <ul>
+        <li>Home</li>
+        <li>Students</li>
+        <li>Register</li>
       </ul>
     </nav>
   );
